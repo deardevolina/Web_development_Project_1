@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p, ul{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 90%;
+    display: flex;
+    margin-left: 5%;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.Logo{
+    width: 20%;
+}
+.Logo img{
+
+}
+nav{ 
+    width: 50%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+
+}
+nav ul li a{
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+}
+.Banner{
+    width: 90%;
+    margin-left: 5%;
+}
+.Banner img{
+    width: 100%;
+}
+.Photodairy{
+    width: 80%;
+    margin: auto;
+    padding-right: 75px;
+    padding-left: 75px;
+    padding-top: 75px;
+    padding-bottom: none;
+}
+.Photodairy h5{
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+.Photodairy h1{
+    color: #626262;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 450;
+}
+.Photodairy p{
+    color: #626262;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    line-height: 25px;
+}
+.Photodairy h6{
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+.Feature_section{
+    width: 80%;
+    margin: auto;
+    padding-right: 75px;
+    padding-left: 75px;
+    padding-top: 75px;
+    padding-bottom: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+}
+.Item{
+    width: 48%;
+}
+.Item img{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.Item h5{
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300
+}
+.Item h1{
+    color: #626262;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 450;
+}
+.Item p{
+    color: #626262;
+    margin-bottom: 75px;
+    font-family: 'Playfair Display', serif;
+    line-height: 25px;
+}
+.Signup_section{
+    background: #f0f0f0;
+    padding: 100px 0;
+}
+.Form{
+    width: 28%;
+    margin: auto;
+    position: relative;
+}
+.Form h1{
+    color: #626262;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+.Form input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    width: 100%;
+}
+.Form input:focus{
+    outline: none;   
+}
+.Form input::placeholder{
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+}
+.Icon{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.Second_feature{
+    padding: 100px;
+}
+.Second_feature_item{
+    margin-bottom: 0;
+}
+.Loadmore{
+    padding-bottom: 75px;
+    text-align: center;
+}
+.Loadmore button{
+    background: transparent;
+    padding: 15px 20px;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+footer{
+    background: #f0f0f0;
+    padding: 50px 0;
+}
+.Footer_content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.Terms{
+
+}
+.Terms ul{
+    list-style: none;
+    display: flex;
+}
+.Terms ul li{
+    margin-right: 12px;
+}
+.Terms ul li a{ 
+    color: #626262;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.Social_icon{
+
+}
+.Social_icon ul{
+    list-style: none;
+    display: flex;
+}
+.Social_icon ul li{
+    margin-left: 12px;
+}
+.Social_icon ul li a{
+    color: #626262;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+
